@@ -8,9 +8,14 @@
     display:grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
-    padding-top: 15%;
+    padding-top: 10%;
     padding-bottom: 15%;
     color: white;
     justify-content: center;
     background-image: url(#{asset_path('fondo_login_erp_2.jpg')});;   
+}
+
+.layoutButton{
+    display:grid;
+    justify-content: center;
 }

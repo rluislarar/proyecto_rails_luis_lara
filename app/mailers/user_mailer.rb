@@ -1,8 +1,10 @@
 class UserMailer < ApplicationMailer
-
-    default from: 'rluislarar12@hotmail.com'
-    
-    def hello 
-        mail(to: 'rluislarar1234@gmail.com', subject: 'lorem')
+    def hello(recipient)
+        mail(
+          to: recipient,
+          subject: "New account information",
+          #content_type: "text/html",
+          #body: "<html><strong>Hello there</strong></html>"
+        )
     end
 end

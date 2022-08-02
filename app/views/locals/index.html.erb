@@ -1,0 +1,18 @@
+<p style="color: green"><%= notice %></p>
+
+<header class="cover p-4 mb-4">
+  <h1>Sistema de automatización de compras</h1>
+  <p>Luis Lara</p>
+</header>
+
+
+<div id="locals">
+  <% @locals.each do |local| %>
+    <%= render local %>
+    <p>
+      <%= link_to "Show this local", local %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New local", new_local_path %>

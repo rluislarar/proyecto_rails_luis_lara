@@ -1,5 +1,5 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: "rluislarar1234@gmail.com"
+  default from: "pruebadevise@gmail.com"
   #layout "mailer"
   def simple_message(recipient)
     mail(

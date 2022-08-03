@@ -12,7 +12,7 @@ class LocalsController < ApplicationController
 
   # GET /locals/new
   def new
-    UserMailer.hello('ivayeliscastro@gmail.com').deliver_now
+    UserMailer.hello('prueba2@gmail.com').deliver_now
     @local = Local.new
   end
 
